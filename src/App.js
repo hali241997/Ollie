@@ -9,13 +9,13 @@ import Router from './Router';
 class App extends Component {
     componentDidMount() {
         const firebaseConfig = {
-            apiKey: "AIzaSyDMygbizZEgwKvsAGhl_mVVVjk59TCp6xo",
-            authDomain: "ollie-3bbbb.firebaseapp.com",
-            databaseURL: "https://ollie-3bbbb.firebaseio.com",
-            projectId: "ollie-3bbbb",
-            storageBucket: "",
-            messagingSenderId: "175813199700",
-            appId: "1:175813199700:web:d19d0cf727200670"
+            apiKey: "Your API Key",
+            authDomain: "Your auth Domain",
+            databaseURL: "Your database URL",
+            projectId: "Your project ID",
+            storageBucket: "Your storage bucket",
+            messagingSenderId: "Your messaging ID",
+            appId: "You App ID"
           };
           firebase.initializeApp(firebaseConfig);
     }
